@@ -33,12 +33,12 @@
 
   When there are responses to all prompts, a README.md file will be generated with all of the responses in Markdown. Users can view this in the README.md file that will be generated in the repository.
 
-  ## [License](#table-of-contents) 
+  ## [License](#table-of-contents)
+
   This project is covered by the following license:
+
   [mit](https://choosealicense.com/licenses/mit)
   
-
-  mit
 
   ## [Contact](#table-of-contents)
 
