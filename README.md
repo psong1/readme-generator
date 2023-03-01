@@ -25,7 +25,7 @@
 
   Once the application, node.js, and inquirer npm have been installed, users can log 'node index' in the terminal. This will provide the prompts one-by-one to the user.
 
-  ##[Contributions](#table-of-contents)
+  ## [Contributions](#table-of-contents)
 
   At this time, this is a solo project.
 
@@ -42,7 +42,7 @@
 
   ## [Contact](#table-of-contents)
 
-  * Link to Github: psong1
+  * Github: [psong1](https://github.com/psong1) 
 
   * Email me: paulsong29@gmail.com
 

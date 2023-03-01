@@ -63,7 +63,7 @@ const generateMarkdown = (data) => {
 
   ## [Contact](#table-of-contents)
 
-  * Link to Github: ${data.github}
+  * Github: [${data.github}](https://github.com/psong1) 
 
   * Email me: ${data.email}
 
