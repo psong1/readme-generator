@@ -1,21 +1,23 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// function that returns a license badge based on the license passed from the question;
+// if no response, then an empty string will be returned
 const renderLicenseBadge = (license) => {
   return license ? `![badge](https://img.shields.io/badge/license-${license}-blue)` : ' ';
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// function that returns the license link based on the license passed in;
+// if no response, then an empty string is returned
 const renderLicenseLink = (license) => {
-  return license ? [`${license}`](`https://choosealicense.com/licenses/${license}`) : ' ';
+  return license ? `[${license}](https://choosealicense.com/licenses/${license})` : ' ';
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function that returns the license section in README
+// if no response, then an empty string is returned
 const renderLicenseSection = (license) => {
   return license ? 
-  `## [License](#table-of-contents) 
+  `## [License](#table-of-contents)
+
   This project is covered by the following license:
+
   ${renderLicenseLink(license)}
   ` : ' ';
 }
@@ -57,9 +59,7 @@ const generateMarkdown = (data) => {
 
   ${data.test}
 
-  ## [License](#table-of-contents)
-
-  ${data.license}
+  ${renderLicenseSection(data.license)}
 
   ## [Contact](#table-of-contents)
 
