@@ -51,7 +51,7 @@ const generateMarkdown = (data) => {
 
   ${data.usage}
 
-  ##[Contributions](#table-of-contents)
+  ## [Contributions](#table-of-contents)
 
   ${data.contribute}
 
